@@ -1,0 +1,108 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.50);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.backgound {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.form-container{
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 45%;
+  padding-inline: 4.25rem;
+  padding-block: 3rem;
+  border-radius: .25rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.form input {
+  padding-block: .5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: solid .063rem rgb(140, 140, 140);
+  padding-inline: 1rem;
+  border-radius: .25rem;
+  color: white;
+}
+
+.form h1 {
+  padding-bottom: .5rem;
+}
+
+.form button {
+  background-color: rgb(229, 9, 20);
+  border-radius: .25rem;
+  padding-block: .5rem;
+  color: white;
+  font-weight: bold;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+}
+
+.form button:hover {
+  filter: brightness(90%);
+}
+
+.login a {
+  color: white;
+  transition: all ease-in-out 200ms;
+
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+#forgot-password {
+  text-align: center;
+}
+
+.form-information {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  padding-bottom: 5rem;
+}
+
+.form-information label {
+  padding-left: .3rem;
+}
+
+#signin {
+  font-weight: bold;
+}
+
+#information {
+  color: rgb(140, 140, 140);
+  font-size: .8125rem;
+}
+
+#information a {
+  color: rgb(0, 113, 235);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoviesVanilla</title>
+  </head>
+  <body>
+    <div class="login">
+      <img
+        class="backgound"
+        src="https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/d85ca082-cdb9-46d9-b342-ece2fb14d34d/BR-pt-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+        alt="fundo com vários filmes"
+      />
+      <div class="form-container">
+        <div class="form">
+          <h1>Entrar</h1>
+          <input
+            type="text"
+            class="email"
+            placeholder="Email ou número de telefone"
+          />
+          <input type="password" class="password" placeholder="Senha" />
+          <button class="login-button">Entrar</button>
+          <a href="#" id="forgot-password">Esqueceu a senha?</a>
+        </div>
+        <div class="form-information">
+          <div>
+            <input type="checkbox" name="lembre" id="lembre" />
+            <label for="lembre">Lembre-se de mim</label>
+          </div>
+          <p>
+            Novo por aqui?
+            <span><a id="signin" href="#">Assine agora.</a></span>
+          </p>
+          <p id="information">
+            Esta página é protegida pelo Google reCAPTCHA para garantir que você
+            não é um robô. <span><a href="#">Saiba mais.</a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
